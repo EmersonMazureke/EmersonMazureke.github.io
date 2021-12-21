@@ -1,0 +1,110 @@
+/* para pormos cor em degrade no fundo google css gradiend */
+
+/* display para alinhar os itens */
+/* display: flex; */
+/* justify-content: space-around; */
+
+/* display para deichar em formato de bloco */
+/* display: block; */
+
+/* enderoco ip */
+/* Endereço IPv4: 192.168.0.106 */
+/* link para whatsapp http://wa.me/5545991476976 */
+/* link para telegram http://t.me/nome no telegram */
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+ html ,body {
+    height: 100%;
+    
+}
+
+
+body{
+
+    background-color: rgb(0, 153, 255);
+    background: rgb(24,12,228);
+    background: linear-gradient(187deg, rgba(24,12,228,1) 0%, rgba(17,21,70,1) 100%);
+
+    
+}
+
+.div0{
+    background-position: 0px auto;
+
+}
+
+.profile{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+
+
+}
+.avatar{
+    width: 80px;
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow:0px 0px 30px rgb(255, 255, 255);
+}
+h1{
+    font-size: 24px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Pushster', cursive;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.links img {
+    width: 33px;
+}
+
+.loren {
+    list-style: none;
+   
+
+
+} 
+
+.loren li{
+    border-radius: 5px;
+    margin: 20px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    box-shadow: 0px 0px 10px 2px white;
+}
+
+.loren li a{
+    color:rgb(24,12,228);
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    font-weight: 600;
+
+
+}
+.loren li a span{
+    display: block;
+    margin-top:3px ;
+    color: rgb(70, 66, 66);
+    font-weight: 200;
+}
