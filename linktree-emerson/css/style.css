@@ -3,33 +3,30 @@
     margin: 0px;
 }
 
- html, body {
-     /* position: relative; */
-    width: 100%;
-    height: 100%;
-    /* background: rgb(1,255,247);
-    background: linear-gradient(187deg, rgba(172, 238, 236, 0.463) 0%, rgba(56,128,114,1) 64%, rgba(24,26,47,1) 100%);  */
- }
+
 
 body{
     
-    /* position: relative; */
+    background-image: url(../img/img-binary.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Cinzel', serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Playfair Display SC', serif;
     font-family: 'Pushster', cursive;
     font-family: 'Quattrocento', serif;
     font-family: 'Saira Condensed', sans-serif;
-    background-color: rgb(28, 131, 112);
+    color: rgb(255, 255, 255);
 
 }
 
 .container{
     padding: 30px;
+    background: rgb(0,0,0);
+    background: linear-gradient(187deg, rgba(0,0,0,0.8995973389355743) 37%, rgba(10,9,9,0.9108018207282913) 83%, rgba(0,0,0,0.9192051820728291) 114%);
+
 }
-
-
-
 .perfil{
     position: relative;
     /* margin: 10px 10px 0px 10px; */
@@ -41,8 +38,8 @@ body{
 
 .perfil img{
     width: 100px;
-    border-radius: 5%;
-    box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+    border-radius: 100%;
+    box-shadow:0px 0px 10px 1px rgb(29, 75, 40);
 
 
 }
@@ -58,6 +55,7 @@ body{
     font-family: 'Pushster', cursive;
     font-family: 'Quattrocento', serif;
     font-family: 'Saira Condensed', sans-serif;
+    color: aliceblue;
 }
 
 
@@ -65,37 +63,41 @@ body{
 .dev{
     width: 100%;
     text-align: center;
+    letter-spacing: 3px;
+
+
+}
+.dev h2{
+    margin: 0px;
+    font-family: 'Aclonica', sans-serif;
     font-family: 'Cinzel', serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Playfair Display SC', serif;
     font-family: 'Pushster', cursive;
     font-family: 'Quattrocento', serif;
     font-family: 'Smooch', cursive;
-
-
-}
-.dev h2{
-    margin: 0px;
     font-size: 25px;
 }
 
 .contatos {
-    margin-top: 50px;
-
+    width: 80px;
+    margin: 40px auto 10px;
     text-align: center;
+    border-bottom: 1px solid rgb(15, 109, 10);
     
 }
 
 .links {
-
+    font: 900;
     margin-top: 0px;
     text-align: center;
     list-style: none;
 }
 
 .links li {
+    background-color: black;
     display: block;
-    box-shadow:0px 0px 10px 10px rgb(23, 8, 38) ;
+    box-shadow:0px 5px 5px 5px rgb(3, 38, 12);
     margin: 30px;
     border-radius: 10px;
     padding: 10px;
@@ -107,7 +109,7 @@ body{
 
 .links li a{
     
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -117,6 +119,8 @@ body{
     text-align: center;
 }
 .roda-pe{
+    position: relative;
+    background-color: black;
     text-align: center;
-    color: rgb(0, 229, 255);
+    color:rgb(175, 175, 175)
 }
